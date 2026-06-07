@@ -197,7 +197,6 @@ export default function Index() {
       {/* ── HERO ── */}
       <section id="hero" className="pt-16 min-h-screen grid grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col justify-center px-6 sm:px-12 lg:px-16 py-20 lg:py-32">
-          <div className="tag">Производство с 2009 года · Москва</div>
           <h1 className="font-oswald font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[0.95] tracking-tight mb-6">
             Электро<br/>щитовое<br/>
             <span className="text-[#C8102E]">оборудование</span><br/>
