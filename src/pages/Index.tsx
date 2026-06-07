@@ -593,7 +593,7 @@ export default function Index() {
             </div>
             <div className="bg-[#F5F5F3] p-8">
               <div className="font-oswald text-lg font-medium mb-2">Производственный цех</div>
-              <p className="text-sm text-[#8A8A8A] mb-4">г. Москва, ул. Заводская, д. 5<br/>Промзона «Южная», въезд через КПП №2</p>
+              <p className="text-sm text-[#8A8A8A] mb-4">г. Екатеринбург</p>
               <div className="text-sm text-[#8A8A8A]">
                 <div className="mb-1"><span className="font-medium text-[#0F0F0F]">Посещение:</span> по предварительной договорённости</div>
                 <div><span className="font-medium text-[#0F0F0F]">Режим работы:</span> Пн–Пт, 8:00–17:00</div>
