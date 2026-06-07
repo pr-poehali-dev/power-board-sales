@@ -121,9 +121,8 @@ export default function TopSections({ scrollTo }: Props) {
           </div>
         </div>
 
-        <div className="relative hidden lg:block">
-          <img src={HERO_IMG} alt="Производство электрощитов" className="absolute inset-0 w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent" />
+        <div className="relative hidden lg:flex items-center justify-center bg-[#F5F5F3]">
+          <img src={HERO_IMG} alt="Производство электрощитов" className="w-3/4 max-h-[70vh] object-contain drop-shadow-2xl" />
           <div className="absolute bottom-10 left-10 bg-white px-6 py-5 shadow-xl max-w-xs">
             <div className="flex items-center gap-3 mb-2">
               <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
