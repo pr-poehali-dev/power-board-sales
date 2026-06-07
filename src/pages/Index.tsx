@@ -144,7 +144,7 @@ export default function Index() {
               <Icon name="Zap" size={16} className="text-white" />
             </div>
             <div>
-              <span className="font-oswald font-semibold text-lg tracking-wider uppercase">ЩитПром</span>
+              <span className="font-oswald font-semibold text-lg tracking-wider uppercase">ЭлтехПро</span>
               <div className="hidden sm:block text-[10px] text-[#8A8A8A] tracking-widest uppercase -mt-0.5">Электрощитовое оборудование</div>
             </div>
           </div>
@@ -536,7 +536,7 @@ export default function Index() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             <div className="lg:col-span-2">
               <div className="tag">О компании</div>
-              <h2 className="font-oswald text-4xl sm:text-5xl font-semibold tracking-tight mb-6">ООО «ЩитПром»</h2>
+              <h2 className="font-oswald text-4xl sm:text-5xl font-semibold tracking-tight mb-6">ООО «ЭлтехПро»</h2>
               <p className="text-[#8A8A8A] leading-relaxed mb-4">
                 Основана в 2009 году как инжиниринговая компания в сфере электротехники. С 2012 года — собственное производство в Москве. Сегодня мы — один из ведущих производителей электрощитового оборудования в Центральном федеральном округе.
               </p>
@@ -559,7 +559,7 @@ export default function Index() {
             <div>
               <div className="tag">Реквизиты</div>
               {[
-                { label: "Полное наименование", val: "ООО «ЩитПром»" },
+                { label: "Полное наименование", val: "ООО «ЭлтехПро»" },
                 { label: "ИНН", val: "7701234567" },
                 { label: "КПП", val: "770101001" },
                 { label: "ОГРН", val: "1097701234567" },
@@ -660,7 +660,7 @@ export default function Index() {
                 <Icon name="Zap" size={16} className="text-white" />
               </div>
               <div>
-                <span className="font-oswald font-semibold text-lg tracking-wider uppercase">ЩитПром</span>
+                <span className="font-oswald font-semibold text-lg tracking-wider uppercase">ЭлтехПро</span>
                 <div className="text-[10px] text-white/40 tracking-widest uppercase">Электрощитовое оборудование</div>
               </div>
             </div>
@@ -673,7 +673,7 @@ export default function Index() {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-between gap-4 text-xs text-white/40">
-            <span>© 2009–2024 ООО «ЩитПром». Все права защищены.</span>
+            <span>© 2009–2024 ООО «ЭлтехПро». Все права защищены.</span>
             <span>Политика конфиденциальности</span>
           </div>
         </div>
