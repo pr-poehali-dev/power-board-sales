@@ -582,21 +582,23 @@ export default function Index() {
             <div className="tag">Связаться</div>
             <h2 className="font-oswald text-4xl sm:text-5xl font-semibold tracking-tight">Контакты</h2>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-black/10">
-            <div className="bg-[#F5F5F3] p-8">
-              <div className="font-oswald text-lg font-medium mb-2">Офис и шоу-рум</div>
-              <p className="text-sm text-[#8A8A8A] mb-4">г. Москва, ул. Производственная, д. 12, стр. 1<br/>БЦ «Технопарк», 3-й этаж, офис 301</p>
-              <div className="text-sm text-[#8A8A8A]">
-                <div className="mb-1"><span className="font-medium text-[#0F0F0F]">Метро:</span> Автозаводская (10 мин. пешком)</div>
-                <div><span className="font-medium text-[#0F0F0F]">Парковка:</span> бесплатная, 50 мест</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-black/10">
+            <div className="bg-[#F5F5F3] p-8 flex items-center gap-4">
+              <div className="w-10 h-10 bg-white border border-black/10 flex items-center justify-center flex-shrink-0">
+                <Icon name="Phone" size={16} className="text-[#C8102E]" />
+              </div>
+              <div>
+                <div className="text-xs text-[#8A8A8A] mb-1">Телефон</div>
+                <a href="tel:+79955662722" className="font-medium hover:text-[#C8102E] transition-colors">+7 (995) 566-27-22</a>
               </div>
             </div>
-            <div className="bg-[#F5F5F3] p-8">
-              <div className="font-oswald text-lg font-medium mb-2">Производственный цех</div>
-              <p className="text-sm text-[#8A8A8A] mb-4">г. Екатеринбург</p>
-              <div className="text-sm text-[#8A8A8A]">
-                <div className="mb-1"><span className="font-medium text-[#0F0F0F]">Посещение:</span> по предварительной договорённости</div>
-                <div><span className="font-medium text-[#0F0F0F]">Режим работы:</span> Пн–Пт, 8:00–17:00</div>
+            <div className="bg-[#F5F5F3] p-8 flex items-center gap-4">
+              <div className="w-10 h-10 bg-white border border-black/10 flex items-center justify-center flex-shrink-0">
+                <Icon name="Mail" size={16} className="text-[#C8102E]" />
+              </div>
+              <div>
+                <div className="text-xs text-[#8A8A8A] mb-1">Email</div>
+                <a href="mailto:vi.elteh.pro@mail.ru" className="font-medium hover:text-[#C8102E] transition-colors">vi.elteh.pro@mail.ru</a>
               </div>
             </div>
           </div>
