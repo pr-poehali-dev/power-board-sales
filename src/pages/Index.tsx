@@ -582,53 +582,6 @@ export default function Index() {
             <div className="tag">Связаться</div>
             <h2 className="font-oswald text-4xl sm:text-5xl font-semibold tracking-tight">Контакты</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-black/10 mb-10">
-            {[
-              {
-                dept: "Отдел продаж",
-                phone: "+7 (995) 566-27-22",
-                email: "sales@schitprom.ru",
-                hours: "Пн–Пт, 9:00–18:00",
-                icon: "ShoppingBag",
-              },
-              {
-                dept: "Технический отдел",
-                phone: "+7 (995) 566-27-22",
-                email: "tech@schitprom.ru",
-                hours: "Пн–Пт, 9:00–17:30",
-                icon: "Cpu",
-              },
-              {
-                dept: "Производство / склад",
-                phone: "+7 (995) 566-27-22",
-                email: "production@schitprom.ru",
-                hours: "Пн–Пт, 8:00–17:00",
-                icon: "Factory",
-              },
-            ].map((dept, i) => (
-              <div key={i} className="bg-[#F5F5F3] p-8">
-                <div className="w-9 h-9 border border-black/10 flex items-center justify-center mb-5 bg-white">
-                  <Icon name={dept.icon} size={16} className="text-[#C8102E]" />
-                </div>
-                <div className="font-oswald text-lg font-medium mb-4">{dept.dept}</div>
-                <div className="space-y-2 text-sm">
-                  <a href={`tel:${dept.phone}`} className="flex items-center gap-2 hover:text-[#C8102E] transition-colors">
-                    <Icon name="Phone" size={13} className="text-[#8A8A8A]" />
-                    {dept.phone}
-                  </a>
-                  <a href={`mailto:${dept.email}`} className="flex items-center gap-2 hover:text-[#C8102E] transition-colors">
-                    <Icon name="Mail" size={13} className="text-[#8A8A8A]" />
-                    {dept.email}
-                  </a>
-                  <div className="flex items-center gap-2 text-[#8A8A8A]">
-                    <Icon name="Clock" size={13} />
-                    {dept.hours}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-black/10">
             <div className="bg-[#F5F5F3] p-8">
               <div className="font-oswald text-lg font-medium mb-2">Офис и шоу-рум</div>
