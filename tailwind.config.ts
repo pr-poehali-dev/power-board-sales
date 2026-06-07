@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1780840765283968976.html"
 	],
 	prefix: "",
 	theme: {
@@ -17,8 +18,16 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			'golos': ['Golos Text', 'sans-serif'],
+			'oswald': ['Oswald', 'sans-serif'],
+		},
 		extend: {
 			colors: {
+				'brand-red': '#C8102E',
+				'brand-dark': '#0F0F0F',
+				'brand-gray': '#F5F5F3',
+				'brand-mid': '#8A8A8A',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
