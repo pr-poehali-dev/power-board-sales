@@ -74,7 +74,7 @@ const ADVANTAGES = [
   { value: "5 лет", label: "гарантия на продукцию" },
 ];
 
-const HERO_IMG = "https://cdn.poehali.dev/projects/922fd10c-e674-4f64-9393-50f46933157e/files/f57dec48-00f7-485c-b2b3-240073b1f878.jpg";
+const HERO_IMG = "https://cdn.poehali.dev/projects/922fd10c-e674-4f64-9393-50f46933157e/bucket/dcf22d4a-4233-4ec2-895a-dbcc750bd69e.png";
 
 interface Props {
   scrollTo: (href: string) => void;
