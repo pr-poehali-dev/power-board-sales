@@ -158,9 +158,9 @@ export default function Index() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <a href="tel:+74951234567" className="hidden sm:flex items-center gap-2 text-sm font-medium">
+            <a href="tel:+79955662722" className="hidden sm:flex items-center gap-2 text-sm font-medium">
               <Icon name="Phone" size={14} className="text-[#C8102E]" />
-              +7 (495) 123-45-67
+              +7 (995) 566-27-22
             </a>
             <button
               onClick={() => scrollTo("#calc")}
@@ -182,9 +182,9 @@ export default function Index() {
               </button>
             ))}
             <div className="pt-2 border-t border-black/8">
-              <a href="tel:+74951234567" className="flex items-center gap-2 text-sm font-medium mb-3">
+              <a href="tel:+79955662722" className="flex items-center gap-2 text-sm font-medium mb-3">
                 <Icon name="Phone" size={14} className="text-[#C8102E]" />
-                +7 (495) 123-45-67
+                +7 (995) 566-27-22
               </a>
               <button onClick={() => scrollTo("#calc")} className="w-full bg-[#C8102E] text-white text-sm font-medium px-4 py-2">
                 Получить КП
@@ -587,21 +587,21 @@ export default function Index() {
             {[
               {
                 dept: "Отдел продаж",
-                phone: "+7 (495) 123-45-67",
+                phone: "+7 (995) 566-27-22",
                 email: "sales@schitprom.ru",
                 hours: "Пн–Пт, 9:00–18:00",
                 icon: "ShoppingBag",
               },
               {
                 dept: "Технический отдел",
-                phone: "+7 (495) 123-45-68",
+                phone: "+7 (995) 566-27-22",
                 email: "tech@schitprom.ru",
                 hours: "Пн–Пт, 9:00–17:30",
                 icon: "Cpu",
               },
               {
                 dept: "Производство / склад",
-                phone: "+7 (495) 123-45-69",
+                phone: "+7 (995) 566-27-22",
                 email: "production@schitprom.ru",
                 hours: "Пн–Пт, 8:00–17:00",
                 icon: "Factory",
